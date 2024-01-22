@@ -1,0 +1,29 @@
+{
+  "name": "npm-package-build",
+  "version": "1.0.0",
+  "description": "A library to clarify your console logs",
+  "main": "lib/index.js",
+  "types": "lib/index.d.ts",
+  "scripts": {
+    "build": "tsc",
+    "prepare": "npm run build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Gyana-Ranjan-14/NPM-CHIKU.git"
+  },
+  "keywords": [
+    "Console log colors",
+    "colorify logs"
+  ],
+  "author": "Chiku < gyanabarik794@gmail.com >",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Gyana-Ranjan-14/NPM-CHIKU/issues"
+  },
+  "homepage": "https://github.com/Gyana-Ranjan-14/NPM-CHIKU#readme",
+  "devDependencies": {
+    "typescript": "^5.3.3"
+  },
+  "files": ["lib/**/*"]
+}
